@@ -17,7 +17,6 @@ function Slider(props) {
 				},
 				pagination: { el: '.swiper-pagination' },
 			});
-			console.log();
 			setSliderSwiper(sliderSwiper);
 		}
 	}, [bannerList.length, sliderSwiper])
