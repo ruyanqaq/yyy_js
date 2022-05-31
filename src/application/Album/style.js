@@ -6,7 +6,7 @@ export const Container = styled.div`
 	top: 0;
 	left: 0;
 	right: 0;
-	bottom: 0;
+	bottom: 60px;
 	z-index: 1000;
 	background: ${style["background-color"]};
 	transform-origin: right bottom;

@@ -96,6 +96,7 @@ function Album(props) {
 						onScroll={handleScroll}
 						pullUp={handlePullUp}
 						pullUpLoading={pullUpLoading}
+						bounceBottom={false}
 					>
 						<AlbumDetail
 							currentAlbum={currentAlbum}

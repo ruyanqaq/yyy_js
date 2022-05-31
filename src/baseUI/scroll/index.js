@@ -193,7 +193,7 @@ Scroll.defaultProps = {
 	pullDownLoading: false, //下拉显示loading
 	pullUp: null, //上拉加载
 	pullDown: null, //下拉加载
-	bounceTop: true, //向上吸顶
+	bounceTop: true, //向上不吸顶
 	bounceBottom: true, //向下吸顶
 };
 

@@ -19,6 +19,10 @@ export { axiosInstance };
 //歌手种类
 export const categoryTypes = [
 	{
+		name: "全部",
+		key: "",
+	},
+	{
 		name: "华语男",
 		key: "1001",
 	},
@@ -81,6 +85,7 @@ export const categoryTypes = [
 ];
 
 export const categoryMap = new Map([
+	["", { type: -1, area: -1 }],
 	["1001", { type: 1, area: 7 }],
 	["1002", { type: 2, area: 7 }],
 	["1003", { type: 3, area: 7 }],
@@ -100,6 +105,11 @@ export const categoryMap = new Map([
 
 //歌手首字母
 export const alphaTypes = [
+	{
+		key: "",
+		name: "全部",
+	}
+	,
 	{
 		key: "A",
 		name: "A",

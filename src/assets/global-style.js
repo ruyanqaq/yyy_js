@@ -39,7 +39,7 @@ export default {
   "font-size-l": "16px",
   "font-size-ll": "18px",
   "border-color": "#e4e4e4",
-  "border-color-v2": "rgba(228, 228, 228, 0.1)",
+  "border-color-v2": "rgba(228, 228, 228, 0.1)", //透明
   "background-color": "#f2f3f4",
   "background-color-shadow": "rgba(0, 0, 0, 0.3)",
   "highlight-background-color": "#fff",

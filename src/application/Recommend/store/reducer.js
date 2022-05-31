@@ -7,15 +7,15 @@ const defaultState = fromJS({
 	enterLoading: true,
 });
 
-export default (prestate = defaultState, action) => {
+export default (state = defaultState, action) => {
 	switch (action.type) {
 		case actionTypes.CHANGE_BANNER:
-			return prestate.set("bannerList", action.data);
+			return state.set("bannerList", action.data);
 		case actionTypes.CHANGE_RECOMMEND_LIST:
-			return prestate.set("recommendList", action.data);
+			return state.set("recommendList", action.data);
 		case actionTypes.CHANGE_ENTER_LOADING:
-			return prestate.set("enterLoading", action.data);
+			return state.set("enterLoading", action.data);
 		default:
-			return prestate;
+			return state;
 	}
 };

@@ -3,7 +3,7 @@ import { SongList, SongItem } from "./style";
 import { getName } from "../../api/utils";
 
 const SongsList = React.forwardRef((props, refs) => {
-	const { songs, songsCount, collectCount, showCollect } = props;
+	const { songs, collectCount, showCollect } = props;
 
 	const totalCount = songs.length;
 
@@ -45,7 +45,7 @@ const SongsList = React.forwardRef((props, refs) => {
 					<i className="iconfont">&#xe6e3;</i>
 					<span>
 						{" "}
-						播放全部 <span className="sum">(共 {songsCount} 首)</span>
+						播放全部 <span className="sum">(共 {totalCount} 首)</span>
 					</span>
 				</div>
 				{showCollect ? collect(collectCount) : null}
